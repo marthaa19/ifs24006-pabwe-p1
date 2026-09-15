@@ -9,7 +9,7 @@
 </head>
 <body>
 
-  <!-- Navigasi utama (sama di semua halaman) -->
+  <!-- Navigasi utama -->
   <header>
     <nav>
       <a href="proyek.html">Beranda</a> |
@@ -22,52 +22,51 @@
   <hr>
 
   <main>
-    <!-- Kartu konten: 1 tabel saja, bingkai pink dari bgcolor tabel + bgcolor td -->
-    <table bgcolor="#ffdaec" border="0" cellpadding="20" cellspacing="0" width="650" align="center">
-      <tr>
-        <td bgcolor="#ffffff">
+    <h1>Dev Blogs</h1>
+    <h2>Programming</h2>
+    <p>The magic behind computers.</p>
+    <hr>
 
-          <h1>Dev Blogs</h1>
-          <h3>Programming</h3>
-          <p>The magic behind computers.</p>
-          <hr>
-
-          <!-- Daftar artikel: tabel 2 kolom (avatar | ringkasan artikel) -->
-          <table border="1" cellpadding="12" cellspacing="0" width="100%">
-            <tr>
-              <td valign="top" width="50">
-                <img src="Logo_Square-2.png" width="32" height="32" alt="Foto profil aimodels-fyi">
-              </td>
-              <td valign="top">
-                <p><strong>aimodels-fyi</strong><br><span>Jun 1</span></p>
-                <h3><a href="blog-detail.html">A beginner's guide to the Ltx-Video-0.9.7 model by Lightricks on Replicate</a></h3>
-                <p><span>#coding</span>&nbsp;&nbsp;<span>#ai</span></p>
-              </td>
-            </tr>
-            <tr>
-              <td valign="top" width="50">
-                <img src="Ali Nazari.webp" width="32" height="32" alt="Foto profil Ali Nazari">
-              </td>
-              <td valign="top">
-                <p><strong>Ali Nazari</strong><br><span>May 31</span></p>
-                <h3><a href="blog-detail.html">Securing Redis with ACLs and Integrating Redis Insight in Docker</a></h3>
-                <p><span>#docker</span>&nbsp;&nbsp;<span>#webdev</span></p>
-              </td>
-            </tr>
-            <tr>
-              <td valign="top" width="50">
-                <img src="Vishnu.webp" width="32" height="32" alt="Foto profil Vishnu Satheesh">
-              </td>
-              <td valign="top">
-                <p><strong>Vishnu Satheesh</strong><br><span>May 31</span></p>
-                <h3><a href="blog-detail.html">How to Deploy a Web Application Using Docker and NGINX on Your Own Server</a></h3>
-                <p><span>#webdev</span>&nbsp;&nbsp;<span>#devops</span></p>
-              </td>
-            </tr>
-          </table>
-
-        </td>
-      </tr>
+    <!-- Tabel data murni tanpa atribut presentasional -->
+    <table>
+      <thead>
+        <tr>
+          <th>Profil</th>
+          <th>Detail Artikel</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <img src="Logo_Square-2.png" alt="Foto profil aimodels-fyi">
+          </td>
+          <td>
+            <p><strong>aimodels-fyi</strong><br><span>Jun 1</span></p>
+            <h3><a href="blog-detail.html">A beginner's guide to the Ltx-Video-0.9.7 model by Lightricks on Replicate</a></h3>
+            <p><span>#coding</span> <span>#ai</span></p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="Ali_Nazari.webp" alt="Foto profil Ali Nazari">
+          </td>
+          <td>
+            <p><strong>Ali Nazari</strong><br><span>May 31</span></p>
+            <h3><a href="blog-detail.html">Securing Redis with ACLs and Integrating Redis Insight in Docker</a></h3>
+            <p><span>#docker</span> <span>#webdev</span></p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="Vishnu.webp" alt="Foto profil Vishnu Satheesh">
+          </td>
+          <td>
+            <p><strong>Vishnu Satheesh</strong><br><span>May 31</span></p>
+            <h3><a href="blog-detail.html">How to Deploy a Web Application Using Docker and NGINX on Your Own Server</a></h3>
+            <p><span>#webdev</span> <span>#devops</span></p>
+          </td>
+        </tr>
+      </tbody>
     </table>
   </main>
 
