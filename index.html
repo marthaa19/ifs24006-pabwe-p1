@@ -36,9 +36,10 @@
       padding: 24px;
     }
 
-    .card h3.eyebrow {
+    .card p.eyebrow {
       margin: 0 0 4px 0;
       font-size: 14px;
+      font-weight: bold;
     }
 
     .card h1 {
@@ -70,8 +71,9 @@
       text-align: left;
     }
 
-    .movie-info h3 {
+    .movie-info h2 {
       margin: 0 0 6px 0;
+      font-size: 1.1rem;
     }
 
     .movie-info p {
@@ -81,55 +83,59 @@
 </head>
 <body>
 
-  <nav>
-    <a href="proyek.html">Beranda</a> |
-    <a href="index.html">IMDb Top 3 Movies</a> |
-    <a href="blog.html">Dev Blogs</a> |
-    <a href="form.html">Form Pendaftaran</a> |
-    <a href="cv.html">CV</a>
-  </nav>
+  <header>
+    <nav>
+      <a href="proyek.html">Beranda</a> |
+      <a href="index.html">IMDb Top 3 Movies</a> |
+      <a href="blog.html">Dev Blogs</a> |
+      <a href="form.html">Form Pendaftaran</a> |
+      <a href="cv.html">CV</a>
+    </nav>
+  </header>
   <hr>
 
-  <div class="card-wrapper">
-    <div class="card">
+  <main>
+    <div class="card-wrapper">
+      <div class="card">
 
-      <h3 class="eyebrow">IMDb Charts</h3>
-      <h1>IMDb Top 3 Movies</h1>
-      <hr>
+        <p class="eyebrow">IMDb Charts</p>
+        <h1>IMDb Top 3 Movies</h1>
+        <hr>
 
-      <div class="movie-list">
+        <div class="movie-list">
 
-        <div class="movie-item">
-          <img src="The Shawshank Redemption.jpeg" alt="Poster The Shawshank Redemption">
-          <div class="movie-info">
-            <h3>1. The Shawshank Redemption</h3>
-            <p><span>1994</span>&nbsp;&nbsp;<span>2h 22m</span>&nbsp;&nbsp;<span>15</span></p>
-            <p>Rating: 9.3 (3.1M)</p>
+          <div class="movie-item">
+            <img src="The Shawshank Redemption.jpeg" alt="Poster The Shawshank Redemption">
+            <div class="movie-info">
+              <h2>1. The Shawshank Redemption</h2>
+              <p><span>1994</span>&nbsp;&nbsp;<span>2h 22m</span>&nbsp;&nbsp;<span>15</span></p>
+              <p>Rating: 9.3 (3.1M)</p>
+            </div>
           </div>
-        </div>
 
-        <div class="movie-item">
-          <img src="the Godfather.jpg" alt="Poster The Godfather">
-          <div class="movie-info">
-            <h3>2. The Godfather</h3>
-            <p><span>1972</span>&nbsp;&nbsp;<span>2h 55m</span>&nbsp;&nbsp;<span>15</span></p>
-            <p>Rating: 9.2 (2.1M)</p>
+          <div class="movie-item">
+            <img src="the Godfather.jpg" alt="Poster The Godfather">
+            <div class="movie-info">
+              <h2>2. The Godfather</h2>
+              <p><span>1972</span>&nbsp;&nbsp;<span>2h 55m</span>&nbsp;&nbsp;<span>15</span></p>
+              <p>Rating: 9.2 (2.1M)</p>
+            </div>
           </div>
-        </div>
 
-        <div class="movie-item">
-          <img src="The Dark Knight.jpg" alt="Poster The Dark Knight">
-          <div class="movie-info">
-            <h3>3. The Dark Knight</h3>
-            <p><span>2008</span>&nbsp;&nbsp;<span>2h 32m</span>&nbsp;&nbsp;<span>12A</span></p>
-            <p>Rating: 9.3 (3.1M)</p>
+          <div class="movie-item">
+            <img src="The Dark Knight.jpg" alt="Poster The Dark Knight">
+            <div class="movie-info">
+              <h2>3. The Dark Knight</h2>
+              <p><span>2008</span>&nbsp;&nbsp;<span>2h 32m</span>&nbsp;&nbsp;<span>12A</span></p>
+              <p>Rating: 9.3 (3.1M)</p>
+            </div>
           </div>
+
         </div>
 
       </div>
-
     </div>
-  </div>
+  </main>
 
 </body>
 </html>
